@@ -1,0 +1,111 @@
+.home{
+    .container{
+        .titleContainer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        .titleTextContainer{
+            .title{
+                font-family: Poppins;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 54px;
+                text-align: left;
+            }
+            .subtitle{
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+            }
+        }
+    }
+    .graphAssessmentContainer{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        .graphContainer{
+            flex: 6;
+            // height: 28.5rem;
+            height: 24rem;
+            box-shadow: 4px 4px 25px 0px #00000026;
+            padding: 1.5rem;
+            border-radius: 10px;
+            .graphTitle{
+                font-family: Poppins;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 33px;
+                text-align: left;
+            }
+            canvas{
+                height: 320px !important;
+            }         
+        }
+        .assessmentContainer{
+            flex: 5;
+            // height: 28.5rem;
+            height: 24rem;
+            background: linear-gradient(74deg, #0A66C2 6.27%, #5994CE 90.96%);
+            box-shadow: 4px 4px 25px 0px #00000026 ;
+            padding: 2.5rem;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;            
+                .leftContainer{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 2rem;
+                    .leftWhiteBox{
+                        background-color: #FFFFFF;
+                        width: 8rem;
+                        height: 8rem;
+                        border-radius: 3px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;                        
+                    }
+                    .cardMetricContent{
+                        font-family: Poppins;
+                        font-size: 56px;
+                        font-weight: 600;
+                        line-height: 84px;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+                    .cardMetricSubContent{
+                        font-family: Poppins;
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 33px;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+
+                }
+                .rightMainContainer{
+                .rightContainer{
+                    display: flex;
+                    align-items: center;
+                    .rightImageContainer{
+                        display: flex;
+                        align-items: center;
+                        transform: translate(3.5rem, -5rem);
+                        .smallImage{
+                            transform: translate(3rem, 0rem);
+                        }
+                        .bigImageContainer{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}

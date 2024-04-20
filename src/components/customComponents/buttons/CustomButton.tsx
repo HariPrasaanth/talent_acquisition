@@ -6,15 +6,15 @@ interface CustomButtonProps{
     variant: 'contained'|'outlined'|'text',
     backgroundColor: string,
     color: string,
-    text: string
+    children: string
 }
 
-const CustomButton = ({variant, backgroundColor, color, text}: CustomButtonProps) => {
+const CustomButton = ({variant, backgroundColor, color, children}: CustomButtonProps) => {
   return (
     <>
       <Button variant={variant} 
-      style={{backgroundColor: backgroundColor, color: color}}
-      >{text}</Button>
+      style={{backgroundColor: backgroundColor, color: color, textTransform: "none"}}
+      >{children}</Button>
     </>
   )
 }

@@ -10,9 +10,9 @@ function App() {
     <>
     <div>
       <Navbar />
-      <div style={{display: "flex"}}>
+      <div style={{display: "flex", marginTop: "2rem"}}>
         <Leftbar />
-        <div style={{flex: 11}}>
+        <div style={{flex: 11, padding: "0rem 1rem"}}>
           <Home />
         </div>
       </div>
