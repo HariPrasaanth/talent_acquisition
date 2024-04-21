@@ -5,6 +5,8 @@ import { COLORS } from '../../constants';
 import { ChartComponent } from '../ChartComponent/ChartComponent';
 import AssessmentComponent from '../AssessmentComponent/AssessmentComponent';
 import TodayInterview from '../TodayInterviewComponent/TodayInterview';
+import Calendar from '../Calendar/Calendar';
+import Rightbar from '../Rightbar/Rightbar';
 
 const Home = () => {
   return (
@@ -20,21 +22,24 @@ const Home = () => {
       </div>
       </div>
       {/* Graph Assessment Container */}
-      <Grid container xl={12} className='graphAssessmentContainer' display={"flex"}>
+      {/* <Grid container xl={12} className='graphAssessmentContainer' display={"flex"}>
         <Grid item md={6} xl={6} className='graphContainer'>
           <ChartComponent />
         </Grid>
         <Grid item md={5.90} xl={5.90} className='assessmentContainer'>
           <AssessmentComponent count={"0033"}/>
         </Grid>
-      </Grid>
+      </Grid> */}
       <Grid container xl={12} className='bigSectionContainer'>
-        <Grid item md={7.90} xl={7.90} className='bigSectionSubContainer'>
+        <Grid item md={7.50} xl={8.90} className='bigSectionSubContainer'>
           <Grid container className='todayInterviewContainer'>
-            <TodayInterview />
+            {/* <TodayInterview /> */}
+            Left
           </Grid>
         </Grid>
-        <Grid item md={4} xl={4}>Right</Grid>
+        <Grid item md={4.40} xl={3}>
+          <Rightbar />
+        </Grid>
       </Grid>
       </div>
     </div>

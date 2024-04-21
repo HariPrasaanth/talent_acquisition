@@ -1,0 +1,15 @@
+.rightbarHeaderContainer{
+    margin: 2rem 0rem;
+    .titleContainer{
+        display: flex;
+        justify-content: space-between;
+        .headerTitle{
+            font-family: Poppins;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 33px;
+            text-align: left;
+            color: #000000;
+        }
+    }
+}
