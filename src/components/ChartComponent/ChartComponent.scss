@@ -1,0 +1,15 @@
+.chartContainer{
+    padding: 2rem 1rem 1.5rem 1rem;
+    .chartTitle{
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 33px;
+        text-align: left;
+    }
+    .chartDivider{
+        width: 100%;
+        margin: 1rem 0rem;
+        border: 1px solid #d6d6d6;
+    }
+}

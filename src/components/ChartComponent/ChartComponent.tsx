@@ -15,6 +15,8 @@ import {
 import { Chart } from 'react-chartjs-2';
 import faker from 'faker';
 import { COLORS, MONTHS } from '../../constants';
+import './ChartComponent.scss';
+import { Typography } from '@mui/material';
 
 ChartJS.register(
   LinearScale,
@@ -58,20 +60,26 @@ export const options = {
   scales: {
     y: {
       grid: {
-        display: false, // Hide grid lines
+        display: false,
       },
       ticks: {
-        stepSize: 1000, // Set the interval between ticks to 1000 (1 unit = 1000)
+        stepSize: 1000,
       },
     },
     x: {
       grid: {
-        display: false, // Hide grid lines
+        display: false,
       },
     },
   },
 }
 
 export function ChartComponent() {
-  return <Chart type='bar' data={data} options={options} />;
+  return (
+    <div className='chartContainer'>
+      <Typography className='chartTitle'>Application's Info</Typography>
+      <div className='chartDivider'></div>
+      <Chart type='bar' data={data} options={options} />
+      </div>
+  );
 }

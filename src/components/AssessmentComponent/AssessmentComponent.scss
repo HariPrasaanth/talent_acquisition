@@ -1,0 +1,47 @@
+.assessmentGridContainer{
+    height: 100%;
+    padding: 0rem 2rem 0rem 2rem;
+    .gridLeft{
+        .gridLeftContainer{
+            .gridLeftWhiteBox{
+                width: 8rem;
+                height: 8rem;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 3px;
+            }
+            .gridLeftCountContainer{
+                .gridLeftCount{
+                    font-family: Poppins;
+                    font-size: 56px;
+                    font-weight: 600;
+                    line-height: 84px;
+                    text-align: left;
+                    color: #ffffff;
+                }
+            }
+            .gridLeftTitleContainer{
+                .gridLeftTitle{
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 33px;
+                    text-align: left;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .gridRight{
+        display: flex;
+        align-items: flex-start;
+        .gridRightImageContainer{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            
+        }
+    }
+}
