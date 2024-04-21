@@ -7,6 +7,7 @@ import AssessmentComponent from '../AssessmentComponent/AssessmentComponent';
 import TodayInterview from '../TodayInterviewComponent/TodayInterview';
 import Calendar from '../Calendar/Calendar';
 import Rightbar from '../Rightbar/Rightbar';
+import Mainbar from '../Mainbar/Mainbar';
 
 const Home = () => {
   return (
@@ -32,10 +33,7 @@ const Home = () => {
       </Grid>
       <Grid container xl={12} className='bigSectionContainer'>
         <Grid item md={7.50} xl={8.90} className='bigSectionSubContainer'>
-          <Grid container className='todayInterviewContainer'>
-            {/* <TodayInterview /> */}
-            Left
-          </Grid>
+            <Mainbar />
         </Grid>
         <Grid item md={4.40} xl={3}>
           <Rightbar />

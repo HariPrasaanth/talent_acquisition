@@ -1,3 +1,35 @@
 .interviewContainer{
-    padding: 2rem 1.5rem;
+    box-shadow: 4px 4px 25px 0px #00000026;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    .interviewHeader{
+        padding-bottom: 0.5rem;
+        padding-right: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .interviewHeaderContent{
+            font-family: Poppins;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 33px;
+            text-align: left;
+            color: #000000;
+        }
+    }
+    .interviewDivider{
+        margin-bottom: 1rem;
+        border: 1px solid #d6d6d6;
+    }
+    .interviewContentContainer{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        gap: 1rem;
+    }
+}
+
+.interviewListMainContainer{
+    display: block;
+    width: 60% !important;
+    border: 1px solid #D6D6D6;
 }
