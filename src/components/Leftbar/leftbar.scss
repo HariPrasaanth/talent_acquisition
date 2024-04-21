@@ -1,9 +1,11 @@
 .leftbar{
     flex: 0.5;
-    position: sticky;
+    position: fixed;
+    height: 100vh;
     top: 125px;
     border-top-right-radius: 25px;
     box-shadow: 4px 4px 25px 0px #00000026;
+    margin-top: 1rem;
     .container{
         padding: 1.5rem;
         .iconContainer{
