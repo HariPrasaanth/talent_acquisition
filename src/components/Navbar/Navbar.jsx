@@ -6,6 +6,7 @@ import Image3 from './../../assets/navbar_icons/3.png';
 import Image4 from './../../assets/navbar_icons/4.png';
 import Image5 from './../../assets/navbar_icons/5.png';
 import SearchIcon from './../../assets/other_icons/search_icon.png';
+import Searchbar from '../customComponents/searchbar/Searchbar';
 
 const Navbar = () => {
   const menuItems = [
@@ -42,13 +43,7 @@ const Navbar = () => {
       <div className='logoContainer'>
         <img src={Logo} alt='ta_logo' className='logo' />
       </div>
-      <div className='searchContainer'>
-        <input type='text' placeholder='Search'/>
-        <div className='searchIconContainer'>
-          <img src={SearchIcon} alt='searchIcon' />
-        </div>
-        {/* <SearchOutlined /> */}
-      </div>
+      <Searchbar />
       </div>
       {/* Icons */}
       <div className='iconContainer'>

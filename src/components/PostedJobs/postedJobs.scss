@@ -1,0 +1,111 @@
+.postedJobContainer{
+    margin-top: 1rem;
+    box-shadow: 4px 4px 25px 0px #00000026;
+    padding: 1.5rem 1rem;
+    .jobCardSubContainer{
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        overflow-x: auto;
+    .jobCardContainer{
+        display: flex;  
+    }    
+}
+}
+
+.jobCardMainContainer{
+    box-shadow: 4px 4px 25px 0px #00000026;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    min-width: 18.5rem;
+    .jobCardHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #d6d6d6;
+        .jobCardLogo{}
+        .jobCardRole{
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            text-align: left;
+        }
+        .jobCardOption{}
+    }
+    .jobCardContent{
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        .jobRole{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: center;
+            color: #3E3E3E;
+        }
+        .jobApplicant{
+            width: 6.25rem;
+            height: 5rem;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 42px;
+            text-align: left;
+        }
+        .totalApplicantContent{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: center;
+            color: #3E3E3E;
+        }
+    }
+    .jobCardFooter{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #d6d6d6;
+        .jobCardFooterContainer{
+            width: 100%;
+            padding-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .footerLastMonthContainer{
+                display: flex;
+                .footerIncreaseContent{
+                    padding-left: 0.5rem;
+                    font-family: Poppins;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    text-align: left;
+                    color: #3E3E3E;
+                    span{
+                        color: #0A66C2;
+
+                    }
+                }
+            }
+            .footerActivity{
+                font-family: Poppins;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+                text-align: left;
+                color: "#3e3e3e";
+            }
+        }
+    }
+}

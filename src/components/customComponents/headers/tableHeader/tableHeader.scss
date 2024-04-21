@@ -1,0 +1,22 @@
+.boxHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .titleLink{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .titleContent{
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 42px;
+            text-align: left;
+            color: #3E3E3E;
+        }
+    }
+    .searchFilter{
+        display: flex;
+        gap: 1rem;
+    }
+}

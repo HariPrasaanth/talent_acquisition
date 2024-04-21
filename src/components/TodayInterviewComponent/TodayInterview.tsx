@@ -133,13 +133,13 @@ const TodayInterview = () => {
         <img src={ThreeDot} alt='options' />
       </div>
       <div className='interviewDivider'></div>
-      <div className='interviewContentContainer' style={{display: "flex", overflowX: "auto"}}>
-        {interviewList.map(item => 
-          <InterviewTable img={item.img} name={item.name} position={item.role} date={item.date} time={item.time} interviewDetails={item.interviewDetails} />   
+      {<div className='interviewContentContainer'>
+        {interviewList.map(item =>
+            <InterviewTable img={item.img} name={item.name} position={item.role} date={item.date} time={item.time} interviewDetails={item.interviewDetails} />   
         )}
-      </div>
+      </div>}
     </div>
   )
 }
 
-export default TodayInterview
+export default TodayInterview;
