@@ -8,7 +8,8 @@ const CustomFilterButton = () => {
     <>
         <Button style={{boxShadow: "4px 4px 25px 0px #00000026", textTransform: "none", display: "flex", gap: "1rem"}}>
           <img src={FilterIcon} alt='filter' />
-          <Typography>Filters</Typography>
+          <Typography style={{fontFamily: "Poppins", fontSize: "14px", fontWeight: 500, lineHeight: "21px", textAlign: "left"
+        }}>Filters</Typography>
         </Button>
     </>
   )
