@@ -1,5 +1,5 @@
 import React from 'react'
-// import './todayinterview.scss';
+import './today.scss';
 import { Card, Grid, Typography } from '@mui/material';
 import ThreeDot from '../../assets/interview_icons/three_dot.png';
 import { ChartComponent } from '../ChartComponent/ChartComponent';
