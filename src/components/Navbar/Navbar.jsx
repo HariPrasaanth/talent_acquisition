@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* Icons */}
       <div className='iconContainer'>
         {menuItems?.map(menu => 
-          <div key={menu.id}>
+          <div key={menu.id} style={{cursor: "pointer"}}>
           <img src={menu.src} alt={menu.alt} />
         </div>
         )}

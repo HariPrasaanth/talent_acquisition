@@ -85,7 +85,7 @@ export default function CandidateTable() {
                 </div>
               </TableCell>
               <TableCell align="center">
-                <img src={row.actions} alt='view' />
+                <img src={row.actions} alt='view' style={{cursor: "pointer"}} />
               </TableCell>
             </TableRow>
           ))}

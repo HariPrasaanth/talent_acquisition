@@ -33,7 +33,9 @@
             line-height: 27px;
             text-align: left;
         }
-        .jobCardOption{}
+        .jobCardOption{
+            cursor: pointer;
+        }
     }
     .jobCardContent{
         height: 12rem;

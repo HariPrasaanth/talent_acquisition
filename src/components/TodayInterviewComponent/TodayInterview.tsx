@@ -130,7 +130,7 @@ const TodayInterview = () => {
     <div className='interviewContainer'>
       <div className='interviewHeader'>
         <Typography className='interviewHeaderContent'>Today Interviews Meetings Info</Typography>
-        <img src={ThreeDot} alt='options' />
+        <img src={ThreeDot} alt='options' style={{cursor: "pointer"}}/>
       </div>
       <div className='interviewDivider'></div>
       {<div className='interviewContentContainer'>
