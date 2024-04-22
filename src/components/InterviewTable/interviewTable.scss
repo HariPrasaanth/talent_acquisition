@@ -1,9 +1,15 @@
+@import "../../style.scss";
+
 .interviewTableContainer{
     border: 1px solid #d6d6d6;
     min-width: 65%;
     min-height: 20rem;
     display: flex;
     justify-content: space-between;
+
+    @include lgLaptop{
+        min-width: 100%;
+    }
     .profileContainer{
         width: 33%;
         border-right: 1px solid #d6d6d6;

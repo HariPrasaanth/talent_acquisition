@@ -1,7 +1,14 @@
+@import "../../../../style.scss";
+
 .boxHeader{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include lgLaptop{
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
     .titleLink{
         display: flex;
         align-items: center;

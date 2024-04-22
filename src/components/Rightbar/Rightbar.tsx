@@ -6,11 +6,15 @@ import Hiring from '../Hiring/Hiring'
 
 const Rightbar = () => {
   return (
-    <>
-        <Calendar />
-        <Upcoming />
-        <Activity />
-        <Hiring />
+    <>  
+      <div 
+      style={{paddingLeft: "0.5rem"}}
+      >
+          <Calendar />
+          <Upcoming />
+          <Activity />
+          <Hiring />
+      </div>
     </>
   )
 }
