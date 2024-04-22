@@ -23,6 +23,18 @@
     } 
 }
 
+@mixin mdLaptopSmall{
+    @media (max-width: 1300px){
+        @content;
+    }
+}
+
+@mixin mdLaptop{
+    @media (max-width: 1350px){
+        @content;
+    }
+}
+
 @mixin lgLaptop{
     @media (max-width: 1499px){
         @content;

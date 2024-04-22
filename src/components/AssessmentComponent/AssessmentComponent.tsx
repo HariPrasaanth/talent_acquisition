@@ -4,6 +4,7 @@ import NOTE from '../../assets/new_assessment_icons/notes.png';
 import SMALL from '../../assets/new_assessment_icons/small.png';
 import BIG from '../../assets/new_assessment_icons/big.png';
 import { Box, Grid, Typography } from "@mui/material";
+import CustomButton from "../customComponents/buttons/CustomButton";
 
 interface AssessmentComponentProps{
   count: String
@@ -33,9 +34,12 @@ const AssessmentComponent = ({count}: AssessmentComponentProps) => {
         </Grid>
       </Grid>
       <Grid item md={6} xl={6} className="gridRight">
-        <div className="gridRightImageContainer">
+        <div className="gridRightImgContainer">
           <img src={SMALL} alt="small" />
-          <img src={BIG} alt="big" />
+          <img src={BIG} alt="big" className="bigImageContainer" />
+        </div>
+        <div className="gridRightButtonContainer">
+          <CustomButton variant="outlined" backgroundColor={"#FFFFFF"} color={"#000000"}>View Details</CustomButton>
         </div>
       </Grid>
     </Grid>

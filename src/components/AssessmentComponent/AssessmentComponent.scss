@@ -1,6 +1,10 @@
+@import '../../style.scss';
+
 .assessmentGridContainer{
     height: 100%;
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-between;
     .gridLeft{
         .gridLeftContainer{
             .gridLeftWhiteBox{
@@ -36,12 +40,27 @@
     }
     .gridRight{
         display: flex;
-        align-items: flex-start;
-        .gridRightImageContainer{
+        flex-direction: column;
+        height: 100%;
+        .gridRightImgContainer{
+            height: 75%;
             display: flex;
             align-items: center;
-            width: 100%;
-            
+            justify-content: space-evenly;
+            transform: translate(0rem, -2rem);
+            @include mdLaptopSmall{
+                transform: translate(0rem, 0rem);
+            }            
+        }     
+        .gridRightButtonContainer{
+            height: 25%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            @include mdLaptopSmall{
+                // height: 20%;
+                align-items: center;
+            }
         }
     }
 }
